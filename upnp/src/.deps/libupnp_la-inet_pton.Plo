@@ -1,0 +1,1 @@
+src/libupnp_la-inet_pton.lo: src/inet_pton.c

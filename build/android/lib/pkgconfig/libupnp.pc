@@ -1,0 +1,11 @@
+prefix=/home/le/Downloads/libupnp-1.6.19/build/android
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libupnp
+Description: Linux SDK for UPnP Devices
+Version: 1.6.19
+Libs:   -L${libdir} -lupnp -lthreadutil -lixml 
+Cflags:  -I${includedir}/upnp
+
